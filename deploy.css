@@ -5307,7 +5307,7 @@ button.code4sa-embed .close {
 }
 .code4sa-embed #embiggen_container {
   border: 1px #CCC solid;
-  width: 100%;
+  width: 75%;
   height: auto;
   position: relative;
   display: block;
@@ -5402,4 +5402,16 @@ button.code4sa-embed .close {
 }
 .code4sa-embed .label {
   font-size: 100%;
+}
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+  .code4sa-embed #embiggen_container {width: 74%;}
+}
+
+@media screen and (min-width: 401px) and (max-width: 768px) {
+  .code4sa-embed #embiggen_container {width: 60%;}
+}
+
+@media screen and (max-width: 400px) {
+  .code4sa-embed #embiggen_container {width: 40%;}
 }
