@@ -5404,11 +5404,11 @@ button.code4sa-embed .close {
   font-size: 100%;
 }
 
-@media screen and (min-width: 769px) and (max-width: 980px) {
+@media screen and (min-width: 601px) and (max-width: 980px) {
   .code4sa-embed #embiggen_container {width: 74%;}
 }
 
-@media screen and (min-width: 401px) and (max-width: 768px) {
+@media screen and (min-width: 401px) and (max-width: 600px) {
   .code4sa-embed #embiggen_container {width: 60%;}
 }
 
